@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html body {
+    padding: 0;
+
+}
+
+.header-div {
+    width: 100%;
+    height: 200px;
+    background: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(190, 190, 190);
+}
+
+.headen-div-1 {
+    width: 20%;
+    height: 700px;
+}
+
+.headen-div-2 {
+    width: 80%;
+    height: 746px;
+}
+
+#ben {
+    width: 700px;
+    height: 756px;
+    
+}
+
+.baslik {
+    margin: 50px 750px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.metin {
+    margin: 50px 550px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.sosyal-medya-butonlari {
+    width: 1200px;
+    height: 150px;
+    margin: 0px 300px;
+    display: flex;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background: yellow;
+}
+
+.headen-div-3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headen-div-4 {
+    width: 50%;
+}
+
+.sosyal-medya-logolari {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+}
+
+.logo:hover {
+    animation: logolar 0.5s both;
+}
+
+@keyframes logolar {
+    100% {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+}
+
+.button:hover {
+    animation: buttonn 0.5s both;
+}
+
+@keyframes buttonn {
+    100% {
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+    }
+}
+
+.isim-div {
+    border-radius: 5px;
+    position: relative;
+    right: 138px;
+    top: 27px;
+    background: rgba(218, 165, 32, 0.637);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-2 {
+    width: 100%;
+    height: 800px;
+    background: #000000b0;
+}
+
+
+
+.skills {
+    width: 2000px;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skil {
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.yetenek-isimleri {
+    margin: auto;
+    width: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yetenek-1 {
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+}
+
+.yetenek-2 {
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+
+.yetenek-3 {
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+}
+
+.yetenek-4 {
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+}
+
+.beyaz {
+    color: white;
+}
+
+.baslik-margin {
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+
+.container-3 {
+    width: 100%;
+    height: 800px;
+    background: rgb(190, 190, 190);
+}
+
+.referans-1 {
+    width: 1200px ;
+    height: 500px;
+    margin: 100px auto;
+    background: wheat;
+}
+
+.utku {
+    width: 150px;
+    border-radius: 50%;
+    margin: -50px 200px;
+}
+
+.referans-yazisi {
+    width: 900px;
+    height: 350px;
+    margin: 70px auto;
+}
+
+.referans-yazi {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skilll {
+    position: relative;
+    top: 110px;
+}
+
+.container-4 {
+    width: 100%;
+    height: 800px;
+    background: #000000b0;
+}
+
+.iletisim-bilgilerim {
+    width: 2000px;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    
+}
+
+.fotom {
+    margin: 0px 500px;
+}
+
+.fotom-img {
+    margin: 50px 0px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.iletisim-bilgileri {
+    margin: 0px -300px;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tel-no {
+    margin: 100px -130px;
+}
+
+.tel-logo {
+    margin: 0px 60px;
+}
+
+.mai1 {
+    position: relative;
+    left: 80px;
+}
+
+.maill {
+    margin: 100px 240px;
+}
+
+.maill-logo {
+    margin: 0px -10px;
+}
+
+.div {
+    height: 5000px;
+}
+
+.mail-bolumu {
+    margin: 180px -600px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.button-gonder {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background: yellow;
+}
+
+.buttonn {
+    margin: 20px 0px;
+}
+
+input {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.bg {
+    background: wheat;
+}
